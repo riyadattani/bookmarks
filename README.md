@@ -20,4 +20,9 @@ So that I can see bookmarks.
 Show me a list of bookmarks when I click browse.
 ```
 
+With this domain model:
+
+![alt text](images/User Story 1_ Bookmarks Challenge.png)
+
+
 Then we create domain models for these stories [here](https://www.draw.io/#G15yQIhLtMiCLSRnRoNFhIoWoJofYfC7DW).
