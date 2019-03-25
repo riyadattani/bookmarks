@@ -1,3 +1,3 @@
-require 'lib/app/bookmarker'
+require './bookmarkmanager'
 
 run BookmarkManager
