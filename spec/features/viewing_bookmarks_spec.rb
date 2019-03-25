@@ -2,7 +2,9 @@ feature 'view stored list of bookmarks' do
   scenario 'in /bookmarks' do
     visit '/'
     click_button 'Browse'
-    expect(page).to have_content 'Here is a list of your bookmarks: URL1URL2URL3'
+    expect(page).to have_content "http://www.makersacademy.com"
+    expect(page).to have_content "http://www.destroyallsoftware.com"
+    expect(page).to have_content "http://www.google.com"
   end
 
 end
