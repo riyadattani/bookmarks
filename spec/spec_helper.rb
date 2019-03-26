@@ -1,3 +1,15 @@
+require_relative './setup_test_database'
+
+#this will clear the tables before every test.
+
+ENV['ENVIRONMENT'] = 'test'
+
+RSpec.configure do |config|
+  config.before(:each) do
+    setup_test_database
+  end
+end
+
 # Set the environment to "test"
 ENV['RACK_ENV'] = 'test'
 
