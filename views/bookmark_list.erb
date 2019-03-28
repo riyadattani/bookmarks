@@ -1,4 +1,10 @@
 Here is a list of your bookmarks: <br>
-<% @list.each do |url| %>
-<%= url %><br>
-<% end %>
+<ul>
+  <% @bookmarks.each do |bookmark| %>
+    <li>
+      <a href="<%= bookmark.url %>">
+        <%= bookmark.title %>
+      </a>
+    </li>
+  <% end %>
+</ul>
